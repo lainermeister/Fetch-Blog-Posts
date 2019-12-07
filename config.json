@@ -1,0 +1,6 @@
+{
+  "install": "npm install",
+  "run": "npm run server-dev",
+  "test": "npm test",
+  "port": 3000
+}

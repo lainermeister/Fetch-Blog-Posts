@@ -1,0 +1,23 @@
+{
+  "name": "blog-post-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "server-dev": "nodemon server/",
+    "json-server": "json-server --watch postData.json --port 8080",
+    "test": "mocha spec/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json-server": "^0.15.1",
+    "mocha": "^6.2.2"
+  }
+}
